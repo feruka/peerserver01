@@ -1,1 +1,1 @@
-web :./bin/peerjs --port 9000 --key peerjs
+web :npm start
