@@ -1,1 +1,1 @@
-web: node server.js
+web :peerjs --port 9000 --key peerjs
