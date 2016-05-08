@@ -1,1 +1,1 @@
-web :peerjs --port 9000 --key peerjs
+web :./bin/peerjs --port 9000 --key peerjs
