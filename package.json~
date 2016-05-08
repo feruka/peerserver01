@@ -1,5 +1,5 @@
 {
-  "name": "peerserver",
+  "name": "peer",
   "version": "0.2.8",
   "description": "PeerJS server component",
   "main": "lib/index.js",
