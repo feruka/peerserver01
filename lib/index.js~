@@ -83,11 +83,11 @@ function PeerServer(options, callback) {
   app.use(path, peerjs);
 
   if (callback) {
-    server.listen(process.env.PORT || port, function() {
+    server.listen(port, function() {
       callback(server);
     });
   } else {
-    server.listen(process.env.PORT || port);
+    server.listen(port);
   }
 
   return peerjs;
